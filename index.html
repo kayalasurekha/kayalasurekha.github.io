@@ -1,233 +1,454 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kayala Surekha | DevOps Portfolio</title>
+
+<title>Kayala Surekha | DevOps Engineer</title>
 
 <style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
 }
 
-body{
-background:#0f172a;
-color:white;
-line-height:1.6;
+header {
+    background: #020617;
+    padding: 20px;
+    text-align: center;
 }
 
-header{
-background:#111827;
-padding:20px;
-position:sticky;
-top:0;
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
 }
 
-nav{
-display:flex;
-justify-content:center;
-gap:25px;
+
+section {
+    padding: 50px;
 }
 
-nav a{
-color:white;
-text-decoration:none;
-font-weight:bold;
+
+h1,h2 {
+    color:#38bdf8;
 }
 
-.hero{
-text-align:center;
-padding:80px 20px;
+
+.hero {
+    text-align:center;
+    padding:80px 20px;
 }
 
-.hero h1{
-font-size:50px;
-color:#38bdf8;
+
+.hero h1 {
+    font-size:45px;
 }
 
-.hero p{
-font-size:22px;
-margin-top:15px;
+
+.card {
+    background:#1e293b;
+    padding:25px;
+    margin:20px 0;
+    border-radius:15px;
 }
 
-.btn{
-display:inline-block;
-margin-top:25px;
-padding:12px 25px;
-background:#38bdf8;
-color:white;
-text-decoration:none;
-border-radius:6px;
+
+.profile {
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
 }
 
-section{
-padding:60px 10%;
+
+.skills span {
+
+    display:inline-block;
+    background:#334155;
+    padding:10px 15px;
+    margin:8px;
+    border-radius:20px;
+
 }
 
-h2{
-color:#38bdf8;
-margin-bottom:20px;
+
+
+.tools-container {
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+
 }
 
-.skills{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-gap:15px;
+
+
+.tool-card {
+
+    background:#1e293b;
+    width:150px;
+    padding:20px;
+    text-align:center;
+    border-radius:15px;
+
 }
 
-.skill{
-background:#1e293b;
-padding:15px;
-text-align:center;
-border-radius:8px;
+
+
+.tool-card img {
+
+    width:80px;
+    height:80px;
+    object-fit:contain;
+
 }
 
- <section id="experience">
-    <h2>Experience</h2>
 
-    <div class="experience-card">
-        <h3>DevOps Intern</h3>
-        <h4>Davine Technologies | Remote</h4>
-        <p><b>2026</b></p>
 
-        <ul>
-            <li>Worked on DevOps practices including Linux, Git, Docker, and Kubernetes.</li>
-            <li>Built and managed containerized applications using Docker.</li>
-            <li>Created Docker images and configured application deployment workflows.</li>
-            <li>Deployed applications on Kubernetes using Pods, Deployments, and Services.</li>
-            <li>Practiced CI/CD concepts using Jenkins and Git-based workflows.</li>
-            <li>Troubleshot application deployment issues and improved understanding of cloud-based environments.</li>
-        </ul>
-    </div>
-</section>
-  
-.project{
-background:#1e293b;
-padding:20px;
-margin-bottom:20px;
-border-radius:8px;
+.tool-card h3 {
+
+    color:#38bdf8;
+
 }
 
-footer{
-text-align:center;
-padding:20px;
-background:#111827;
-margin-top:40px;
+
+
+.project-img {
+
+    width:100%;
+    border-radius:15px;
+
 }
 
-a{
-color:#38bdf8;
+
+button {
+
+    background:#38bdf8;
+    border:none;
+    padding:12px 25px;
+    border-radius:20px;
+
 }
+
+
+footer {
+
+    background:#020617;
+    padding:20px;
+    text-align:center;
+
+}
+
+
 </style>
 
 </head>
 
+
 <body>
 
+
 <header>
+
+<h2>Kayala Surekha</h2>
+
 <nav>
+
 <a href="#about">About</a>
-<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#tools">Tools</a>
 <a href="#projects">Projects</a>
 <a href="#contact">Contact</a>
+
 </nav>
+
 </header>
 
-<section class="hero">
-<h1>Kayala Surekha</h1>
-<p>DevOps Engineer | Linux | Docker | Jenkins | Kubernetes | AWS</p>
 
-<a class="btn" href="https://github.com/kayalasurekha" target="_blank">
-View GitHub
-</a>
+
+<section class="hero">
+
+
+<img src="profile.jpg" class="profile">
+
+
+<h1>
+DevOps Engineer | Python Developer
+</h1>
+
+
+<p>
+B.Tech Civil Engineering Graduate (2026)
+Passionate about DevOps, Cloud, Automation and Software Development.
+</p>
+
+
+<button>
+Open To Work
+</button>
+
 
 </section>
+
+
+
+
 
 <section id="about">
 
+
 <h2>About Me</h2>
+
+
+<div class="card">
+
 
 <p>
 
-I am a DevOps enthusiast with knowledge of Linux, Docker, Jenkins, Kubernetes, Git, AWS, Python, and CI/CD. I enjoy building automation pipelines and deploying applications using modern DevOps tools. I am looking for an opportunity to start my career as a DevOps Engineer.
+I am an aspiring DevOps Engineer with hands-on experience in
+Linux, Git, Docker, Kubernetes, Jenkins and AWS.
+I enjoy building automated deployment workflows and solving
+real-world infrastructure problems.
 
 </p>
 
-</section>
-
-<section id="skills">
-
-<h2>Technical Skills</h2>
-
-<div class="skills">
-
-<div class="skill">Linux</div>
-<div class="skill">Git</div>
-<div class="skill">GitHub</div>
-<div class="skill">Docker</div>
-<div class="skill">Jenkins</div>
-<div class="skill">Kubernetes</div>
-<div class="skill">AWS</div>
-<div class="skill">Python</div>
-<div class="skill">SQL</div>
-<div class="skill">CI/CD</div>
-<div class="skill">Shell Scripting</div>
-<div class="skill">Networking</div>
 
 </div>
 
+
 </section>
+
+
+
+
+
+
+<section id="experience">
+
+
+<h2>Experience</h2>
+
+
+<div class="card">
+
+
+<h3>DevOps Intern</h3>
+
+
+<h4>Davine Technologies | Remote</h4>
+
+
+<p><b>2026</b></p>
+
+
+<ul>
+
+<li>Worked on DevOps practices including Linux, Git, Docker, and Kubernetes.</li>
+
+<li>Built and managed containerized applications using Docker.</li>
+
+<li>Created Docker images and configured application deployment workflows.</li>
+
+<li>Deployed applications on Kubernetes using Pods, Deployments, and Services.</li>
+
+<li>Practiced CI/CD concepts using Jenkins and Git-based workflows.</li>
+
+<li>Troubleshot application deployment issues and cloud environments.</li>
+
+</ul>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section id="tools">
+
+
+<h2>DevOps Tools & Technologies</h2>
+
+
+<div class="tools-container">
+
+
+<div class="tool-card">
+<img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png">
+<h3>Docker</h3>
+</div>
+
+
+
+<div class="tool-card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Kubernetes_logo.svg">
+<h3>Kubernetes</h3>
+</div>
+
+
+
+<div class="tool-card">
+<img src="https://www.jenkins.io/images/logos/jenkins/jenkins.png">
+<h3>Jenkins</h3>
+</div>
+
+
+
+<div class="tool-card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg">
+<h3>AWS</h3>
+</div>
+
+
+
+<div class="tool-card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png">
+<h3>Linux</h3>
+</div>
+
+
+
+<div class="tool-card">
+<img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png">
+<h3>Git</h3>
+</div>
+
+
+
+<div class="tool-card">
+<img src="https://www.python.org/static/community_logos/python-logo.png">
+<h3>Python</h3>
+</div>
+
+
+
+<div class="tool-card">
+<img src="https://www.terraform.io/assets/images/logo-hashicorp-3f10732f.svg">
+<h3>Terraform</h3>
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
 
 <section id="projects">
 
+
 <h2>Projects</h2>
 
-<div class="project">
+
+
+<div class="card">
+
+<h3>CloudPay Secure Gateway</h3>
+
+<p>
+
+Node.js application containerized using Docker
+and deployed using Kubernetes.
+Created Deployments, Services and managed
+applications using kubectl.
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
 <h3>Employee Management System</h3>
-<p>Developed using Python, Flask, MySQL and Docker with CRUD operations.</p>
+
+
+<p>
+
+Developed Flask application using Python.
+Containerized using Docker and prepared
+deployment configuration.
+
+</p>
+
+
 </div>
 
-<div class="project">
-<h3>Jenkins CI/CD Pipeline</h3>
-<p>Automated build and deployment using GitHub, Docker and Jenkins.</p>
+
+
+
+
+<div class="card">
+
+
+<h3>CI/CD Automation Pipeline</h3>
+
+
+<p>
+
+Created automation workflow using GitHub,
+Jenkins and Docker for continuous integration
+and deployment.
+
+</p>
+
+
 </div>
 
-<div class="project">
-<h3>Kubernetes Deployment</h3>
-<p>Deployed containerized applications using Deployment and Service YAML files.</p>
-</div>
 
-<div class="project">
-<h3>Dockerized Web Application</h3>
-<p>Built Docker images and managed containers using Docker.</p>
-</div>
 
 </section>
+
+
+
+
+
 
 <section id="contact">
 
+
 <h2>Contact</h2>
 
-<p>Email : kayalasurekha123@gmail.com</p>
 
-<p>Phone : 7416288966</p>
+<div class="card">
 
-<p>GitHub :
-<a href="https://github.com/kayalasurekha" target="_blank">
-https://github.com/kayalasurekha
-</a>
-</p>
 
-<p>LinkedIn :
-<a href="https://www.linkedin.com/in/kayala-surekha" target="_blank">
-https://www.linkedin.com/in/kayala-surekha
-</a>
-</p>
+<p>Email: kayalasurekha123@gmail.com</p>
+
+<p>GitHub: github.com/kayalasurekha</p>
+
+<p>LinkedIn: www.linkedin.com/in/kayala-surekha</p>
+
+ <p>Phone: +91 7416288966</p>
+
+
+</div>
+
 
 </section>
+
+
+
+
 
 <footer>
 
@@ -235,5 +456,7 @@ https://www.linkedin.com/in/kayala-surekha
 
 </footer>
 
+
 </body>
+
 </html>
