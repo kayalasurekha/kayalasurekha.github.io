@@ -80,42 +80,30 @@ h1,h2 {
 
 
 .tools-container {
-
     display:flex;
     flex-wrap:wrap;
-    justify-content:center;
     gap:20px;
-
 }
-
-
 
 .tool-card {
-
     background:#1e293b;
-    width:150px;
-    padding:20px;
-    text-align:center;
+    padding:15px 25px;
     border-radius:15px;
-
+    display:flex;
+    align-items:center;
+    gap:15px;
 }
-
-
 
 .tool-card img {
-
-    width:80px;
-    height:80px;
+    width:45px;
+    height:45px;
     object-fit:contain;
-
 }
 
-
-
-.tool-card h3 {
-
+.tool-card span {
+    font-size:18px;
     color:#38bdf8;
-
+    font-weight:bold;
 }
 
 
@@ -180,7 +168,7 @@ footer {
 
 
 <h1>
-DevOps Engineer | Python Developer
+DevOps Engineer 
 </h1>
 
 
@@ -212,10 +200,16 @@ Open To Work
 
 <p>
 
-I am an aspiring DevOps Engineer with hands-on experience in
-Linux, Git, Docker, Kubernetes, Jenkins and AWS.
-I enjoy building automated deployment workflows and solving
-real-world infrastructure problems.
+I am an aspiring <b>DevOps Engineer</b> with hands-on experience in
+Linux, Git, Docker, Kubernetes, Jenkins, AWS, and Python.
+
+I have practical experience building containerized applications,
+creating CI/CD pipelines, and deploying applications using modern DevOps tools.
+
+I enjoy automating workflows, troubleshooting deployment issues, and
+learning new cloud technologies. My goal is to contribute to a team by
+applying DevOps practices, improving application delivery, and supporting
+efficient software development processes.
 
 </p>
 
@@ -242,7 +236,7 @@ real-world infrastructure problems.
 <h3>DevOps Intern</h3>
 
 
-<h4>Davine Technologies | Remote</h4>
+<h4> Wipro| Remote</h4>
 
 
 <p><b>2026</b></p>
@@ -278,70 +272,51 @@ real-world infrastructure problems.
 
 <section id="tools">
 
-
 <h2>DevOps Tools & Technologies</h2>
-
 
 <div class="tools-container">
 
-
 <div class="tool-card">
 <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png">
-<h3>Docker</h3>
+<span>Docker</span>
 </div>
-
-
 
 <div class="tool-card">
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Kubernetes_logo.svg">
-<h3>Kubernetes</h3>
+<span>Kubernetes</span>
 </div>
-
-
 
 <div class="tool-card">
 <img src="https://www.jenkins.io/images/logos/jenkins/jenkins.png">
-<h3>Jenkins</h3>
+<span>Jenkins</span>
 </div>
-
-
 
 <div class="tool-card">
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg">
-<h3>AWS</h3>
+<span>AWS</span>
 </div>
-
-
 
 <div class="tool-card">
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png">
-<h3>Linux</h3>
+<span>Linux</span>
 </div>
-
-
 
 <div class="tool-card">
 <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png">
-<h3>Git</h3>
+<span>Git</span>
 </div>
-
-
 
 <div class="tool-card">
 <img src="https://www.python.org/static/community_logos/python-logo.png">
-<h3>Python</h3>
+<span>Python</span>
 </div>
-
-
 
 <div class="tool-card">
 <img src="https://www.terraform.io/assets/images/logo-hashicorp-3f10732f.svg">
-<h3>Terraform</h3>
+<span>Terraform</span>
 </div>
 
-
 </div>
-
 
 </section>
 
@@ -353,23 +328,36 @@ real-world infrastructure problems.
 
 <section id="projects">
 
-
 <h2>Projects</h2>
 
 
-
 <div class="card">
 
-<h3>CloudPay Secure Gateway</h3>
+<h3>🚀 CloudPay Secure Gateway | Docker & Kubernetes Deployment</h3>
 
 <p>
-
-Node.js application containerized using Docker
-and deployed using Kubernetes.
-Created Deployments, Services and managed
-applications using kubectl.
-
+Designed and deployed a containerized Node.js application using modern DevOps practices.
+Implemented Docker-based application packaging and Kubernetes-based deployment management.
 </p>
+
+<ul>
+
+<li>Created Dockerfile to build and package the application into a container image.</li>
+
+<li>Built and managed Docker images for consistent application deployment.</li>
+
+<li>Created Kubernetes Deployment and Service YAML configurations.</li>
+
+<li>Deployed applications using Kubernetes Pods, Deployments, and Services.</li>
+
+<li>Used kubectl commands to monitor, troubleshoot, and manage Kubernetes resources.</li>
+
+<li>Resolved container image, networking, and deployment-related issues.</li>
+
+<li>Implemented workflow:
+Code → GitHub → Docker → Kubernetes → Application Deployment</li>
+
+</ul>
 
 </div>
 
@@ -379,41 +367,62 @@ applications using kubectl.
 
 <div class="card">
 
-<h3>Employee Management System</h3>
-
+<h3>👨‍💼 Employee Management System | Python Flask & Docker</h3>
 
 <p>
-
-Developed Flask application using Python.
-Containerized using Docker and prepared
-deployment configuration.
-
+Developed a web-based Employee Management System using Python Flask.
+Configured application structure, database connectivity, and deployment setup.
 </p>
 
+<ul>
+
+<li>Built backend APIs and application logic using Python Flask.</li>
+
+<li>Implemented employee management features including adding, updating, and deleting records.</li>
+
+<li>Configured database integration using SQL.</li>
+
+<li>Created Dockerfile to containerize the Flask application.</li>
+
+<li>Managed application dependencies using requirements.txt.</li>
+
+<li>Used Git and GitHub for version control and project management.</li>
+
+<li>Prepared application deployment configuration for cloud environments.</li>
+
+</ul>
 
 </div>
-
 
 
 
 
 <div class="card">
 
-
-<h3>CI/CD Automation Pipeline</h3>
-
+<h3>⚙️ CI/CD Automation Pipeline | Jenkins, GitHub & Docker</h3>
 
 <p>
-
-Created automation workflow using GitHub,
-Jenkins and Docker for continuous integration
-and deployment.
-
+Implemented a Continuous Integration and Continuous Deployment pipeline
+to automate application build and deployment processes.
 </p>
 
+<ul>
+
+<li>Integrated GitHub repository with Jenkins for automated builds.</li>
+
+<li>Created Jenkins pipeline workflows for continuous integration.</li>
+
+<li>Automated Docker image creation during deployment process.</li>
+
+<li>Configured build and deployment stages to reduce manual effort.</li>
+
+<li>Performed testing and troubleshooting of pipeline execution.</li>
+
+<li>Improved understanding of DevOps automation and release management.</li>
+
+</ul>
 
 </div>
-
 
 
 </section>
